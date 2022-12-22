@@ -45,7 +45,7 @@
             class="tasks__item js-task">
 
             <botton class="tasks__batton tasks__batton--toggleDone js-toggleDone">
-${task.done ? "✓" : ""} 
+               ${task.done ? "✓" : ""} 
             </button>
             <span ${task.done ? "class=\"list__task--done\"" : ""}>${task.content}</span>
             <button class="js-remove task__button-remove">🗑</button> 

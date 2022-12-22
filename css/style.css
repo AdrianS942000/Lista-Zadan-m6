@@ -17,16 +17,5 @@ html {
     max-width: 500px;
     min-width: 350px;
 }
-.task_button-done {
-    background-color: teal;
-    width: 25px;
-    height: 25px;
-    border: none;
-    
-}
-.task__button-remove {
-    background-color: red;
-    width: 25px;
-    height: 25px;
-    border: none;
-}
+
+

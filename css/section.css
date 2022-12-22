@@ -1,0 +1,9 @@
+.section {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.section__header {
+padding: 10px;
+border-bottom: 2px solid #eee;
+margin: 0px;
+}

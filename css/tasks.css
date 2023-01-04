@@ -18,7 +18,7 @@ tasks {
     text-decoration: line-through;
 }
 
-.tasks__batton {
+.tasks__button {
     border: none;
     color: white;
     width: 30px;
@@ -26,7 +26,7 @@ tasks {
     padding: 0;
 }
 
-.tasks__batton--toggleDone {
+.tasks__button--toggleDone {
     background: teal;
 }
 

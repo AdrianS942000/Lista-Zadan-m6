@@ -46,7 +46,7 @@
                ${task.done ? "✓" : ""} 
             </button>
             <span ${task.done ? "class=\"list__task--done\"" : ""}>${task.content}</span>
-            <button class="js-remove task__button-remove">🗑</button> 
+            <button class="js-remove task__button-remove"> 🗑 </button> 
             </li>
             `;
         }
@@ -60,13 +60,15 @@
     const onFormSubmit = (event) => {
         event.preventDefault();
 
-        const newTaskContent = document.querySelector(".js-newTask").value.trim();
+        const newTaskElement = document.querySelector(".js-newTask");
+        const newTaskContent = newTaskElement.value.trim();
 
-        if (newTaskContent === "") {
-            return;
+        if (newTaskContent !== "") {
+            addNewTask(newTaskContent);
+            newTaskElement.value = "";
         }
+        newTaskElement.focus();
 
-        addNewTask(newTaskContent);
     };
 
     const init = () => {

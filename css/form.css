@@ -38,6 +38,11 @@
     border: 1px solid #007383;
     padding: 8px;
     margin: 10px;
+    transition: 1s;
+}
+.form__submitButton:hover {
+    background: hsl(180, 100%, 30%);
+    transform: scale(1.05);
 }
 
 @media (max-width: 767px) {

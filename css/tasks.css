@@ -27,11 +27,19 @@
 
 .tasks__button--toggleDone {
     background: teal;
+    transition: 1s;
 }
 
+.tasks__button:hover {
+    background: hsl(180, 100%, 35%);
+}
 .task__button-remove {
-    background-color: red;
+    background-color: rgb(214, 2, 2);
     width: 25px;
     height: 25px;
     border: none;
+    transition: 1s;
+}
+.task__button-remove:hover {
+    background: hsl(0, 100%, 50%);
 }
